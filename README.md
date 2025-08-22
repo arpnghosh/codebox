@@ -1,20 +1,17 @@
-<div align="center">
-  <h1>colabcoder</h1>
-  <a href="https://github.com/retrovoxel/colabcoder/blob/main/LICENSE.md">
-    <img src="https://badgen.net/github/license/Naereen/Strapdown.js" alt="GitHub license" />
-  </a>
+# codebox
 
-  <br> 
-  web app that lets you write code with others in real time 
- <p align="center">
+> I don't plan to host this application. If the link is broken, then please refer to the usage guide.
 
-</div>
+<details>
+    <summary>Images</summary>
+    <img src= "./assets/screenshot.png">
+</details>
 
-## Installation
+### Usage
  clone the repository:
 
    ```shell
-   git clone https://github.com/retrovoxel/colabcoder.git
+   git clone https://github.com/arpnghosh/codebox.git
    ```
 ### Client
    ```shell
@@ -22,17 +19,21 @@
    npm install
    npm run dev
    ```
+### Building the docker image
+   ```shell
+   cd server
+   docker build -t codebox-image .
+   ```
 ### Server
    ```shell
    cd server
    npm install
-   npm start
+   npm run dev
    ``````
-
 ## Contributing
 
-- [Open an issue](https://github.com/retrovoxel/colabcoder/issues) if you believe you've encountered a bug.
-- Make a [pull request](https://github.com/retrovoxel/colabcoder/pull) to add new features/make quality-of-life improvements/fix bugs.
+- [Open an issue](https://github.com/arpnghosh/codebox/issues) if you believe you've encountered a bug.
+- Make a [pull request](https://github.com/arpnghosh/codebox/pull) to add new features/make quality-of-life improvements/fix bugs.
   
- ## License
+## License
 This project is licensed under the [MIT License](LICENSE.md).
